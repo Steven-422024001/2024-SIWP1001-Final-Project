@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Project PWD</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>Billiards Tournament 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="project1.html">Home</a></li>
+                <li><a href="lomba.html">Tournament</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://pearsoncues.com/media/wysiwyg/How_to_Rack_Eight-Ball_Table.jpg" class="d-block w-100" alt="8 Ball">
+          </div>
+          <div class="carousel-item">
+            <img src="https://luxury-pool-tables.co.uk/wp-content/uploads/2014/03/9BallBlog.jpg" class="d-block w-100" alt="9 Ball">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn11.bigcommerce.com/s-quibru7der/images/stencil/1280x1280/products/2206/14131/Black_Aerorack_8_ball_rack_on_table_THUMB__20993.1661871479.jpg?c=2?imbypass=on" class="d-block w-100" alt="10 Ball">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <section id="home">
+            <h2>This is one of the most anticipated billiards tournaments in 2025.<br>
+                Get ready to showcase your skills and win amazing prizes!</h2>
+            <div class="slider">
+                <div class="image-item">
+                    <a href="8ball.html">
+                        <img src="8ball.jpeg" alt="8 Ball" onclick="showPrize('8-ball')">
+                    </a>
+                    <p>8 Ball</p>
+                </div>
+                <div class="image-item">
+                    <a href="9ball.html">
+                        <img src="9ball.jpeg" alt="9 Ball" onclick="showPrize('9-ball')">
+                    </a>
+                    <p>9 Ball</p>
+                </div>
+                <div class="image-item">
+                    <a href="10ball.html">
+                        <img src="10ball.jpeg" alt="10 Ball" onclick="showPrize('10-ball')">
+                    </a>
+                    <p>10 Ball</p>
+                </div>
+                <div class="image-item">
+                    <a href="snooker.html">
+                        <img src="snooker.jpeg" alt="Snooker" onclick="showPrize('Snooker-ball')">
+                    </a>
+                    <p>Snooker</p>
+                </div>
+            </div>
+            <div class="click">
+                <p>*Click image to see the information</p>
+                <a href="form.html">
+                <button class="btn btn-primary">Register Now</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Billiard Tournament. All Rights Reserved.</p>
+        <div>
+            <a href="https://instagram.com/stevennn.573" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

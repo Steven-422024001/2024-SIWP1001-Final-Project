@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url('https://www.thefactsite.com/wp-content/uploads/2021/08/number-10-facts.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.container-1 {
+    background-image: url('https://www.cuecave.com/wp-content/uploads/2022/12/is-8-ball-easy-article-1-1024x585.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.container-2 {
+    background-image: url('https://www.masse.co.nz/wp-content/uploads/2016/11/9-BALL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.container-3 {
+    background-image: url('https://www.thefactsite.com/wp-content/uploads/2021/08/number-10-facts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.container-4 {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steam/apps/887800/ss_54b9074585b794a570ce2a5b8fb79487b129b6a3.1920x1080.jpg?t=1592572335 ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+.header h2 {
+    margin: 0;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.header h3 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+}
+.content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.content p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.prizes {
+    padding: 20px;
+}
+.prizes h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.prizes p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.footer {
+    padding: 20px;
+}
+.footer p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
